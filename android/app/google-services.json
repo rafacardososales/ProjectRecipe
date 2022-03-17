@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924779749280",
+    "project_id": "receitas-18ce8",
+    "storage_bucket": "receitas-18ce8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924779749280:android:6ece648aa4c5d9d5510ec5",
+        "android_client_info": {
+          "package_name": "rafasalesdev.com.receitas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924779749280-2bpa2bs1mmnb6nj8870h0mjgucru2ll8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc8aw3dZSbAhNz-W6CF8i938qbzXcrRDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924779749280-2bpa2bs1mmnb6nj8870h0mjgucru2ll8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
