@@ -10,6 +10,7 @@ import 'package:tab_indicator_styler/tab_indicator_styler.dart';
 class HomePage extends StatefulWidget {
   const HomePage({Key? key,}) : super(key: key);
 
+
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -30,9 +31,9 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.only(right: 12),
               icon: const Icon(Icons.search),
               onPressed: () {
-                String result = showSearch(
+                Future<RecipeModel?> result = showSearch(
                     context: context,
-                    delegate: DataSearch(RecipeModel.demoRecipe)) as String;
+                    delegate: DataSearch(RecipeModel.avesRecipe));
                 print('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa $result');
               },
               iconSize: 30,
