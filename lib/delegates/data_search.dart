@@ -36,7 +36,7 @@ class DataSearch extends SearchDelegate<RecipeModel>{
 
   @override
   Widget buildResults(BuildContext context) {
-    //Future.delayed(Duration.zero).then((_) => close(context, query));
+    //Future.delayed(Duration.zero).then((_) => close(context, recipe.first));
     close(context, recipe.first);
     return Container();
   }
