@@ -36,7 +36,7 @@ class DataSearch extends SearchDelegate<RecipeModel>{
 
   @override
   Widget buildResults(BuildContext context) {
-    //Future.delayed(Duration.zero).then((_) => close(context, recipe.first));
+    //Future.delayed(Duration.zero).then((_) => close(context, query));
     close(context, recipe.first);
     return Container();
   }
@@ -56,7 +56,7 @@ class DataSearch extends SearchDelegate<RecipeModel>{
         itemBuilder: (_, index){
           return ListTile(
             title: Text(filter[index].title.toString()),
-            leading: Icon(Icons.visibility),
+            leading: const Icon(Icons.visibility),
             onTap: (){
               close(context, filter[index]);
             },

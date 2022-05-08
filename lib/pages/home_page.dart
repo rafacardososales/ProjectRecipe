@@ -16,7 +16,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  late final RecipeModel recipe;
+  late RecipeModel recipe;
 
 
   @override
@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
               onPressed: () {
                 Future<RecipeModel?> result = showSearch(
                     context: context,
-                    delegate: DataSearch(RecipeModel.avesRecipe));
+                    delegate: DataSearch(recipe.title));
                 print('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa $result');
               },
               iconSize: 30,

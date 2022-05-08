@@ -1,6 +1,6 @@
 
-class RecipeModel{
-  String? title;
+class RecipeModel<String>{
+  String title;
   String? dificult;
   String? description;
   String? category;
@@ -21,6 +21,9 @@ class RecipeModel{
     required this.ingredients,
     required this.preparation,
   });
+
+
+
   static List <RecipeModel> demoRecipe = [
     RecipeModel(
         title: 'Espaguete à Putanesca',

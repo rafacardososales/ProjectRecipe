@@ -38,7 +38,7 @@ class RecipeDetails extends StatelessWidget {
                     height: (size.height / 2) +50,
                     width: double.infinity,
                     fit: BoxFit.cover,
-                    image: true? NetworkImage('${recipeModel.imgPath}') : CircularProgressIndicator() as ImageProvider,
+                    image:NetworkImage('${recipeModel.imgPath}'),
                   ),
                 ),
               ),
